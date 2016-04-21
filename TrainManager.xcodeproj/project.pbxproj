@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06BCA5C23780B71EDB6B6BC6 /* libPods-TrainManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD554377A7D34AD6212B42ED /* libPods-TrainManager.a */; };
+		C0C055221CC4CE8000DC8F8C /* TMInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C055211CC4CE8000DC8F8C /* TMInfoViewController.m */; };
+		C0C055251CC4CEBB00DC8F8C /* TMInfoPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C055241CC4CEBB00DC8F8C /* TMInfoPresenter.m */; };
+		C0C055281CC4CED800DC8F8C /* TMInfoInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C055271CC4CED800DC8F8C /* TMInfoInteractor.m */; };
+		C0C0552F1CC4E0AD00DC8F8C /* TMCitiesListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C0552E1CC4E0AD00DC8F8C /* TMCitiesListRouter.m */; };
+		C0C05EB11CC51C6800DC8F8C /* UIViewController+DataProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C05EB01CC51C6800DC8F8C /* UIViewController+DataProperty.m */; };
+		C0CE34F61CC692660071B356 /* TMCitiesListAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE34F51CC692660071B356 /* TMCitiesListAssembly.m */; };
+		C0CE34F91CC6A9440071B356 /* TMInfoAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE34F81CC6A9440071B356 /* TMInfoAssembly.m */; };
+		C0CE35041CC6B4DF0071B356 /* TMDatePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE35031CC6B4DF0071B356 /* TMDatePresenter.m */; };
+		C0CE35081CC6B5280071B356 /* TMDateInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE35071CC6B5280071B356 /* TMDateInteractor.m */; };
+		C0CE350B1CC6B55A0071B356 /* TMDateRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE350A1CC6B55A0071B356 /* TMDateRouter.m */; };
+		C0CE35111CC6B8EA0071B356 /* TMDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE35101CC6B8EA0071B356 /* TMDateViewController.m */; };
+		C0CE35161CC772140071B356 /* TMDateAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = C0CE35151CC772140071B356 /* TMDateAssembly.m */; };
+		C0CE35251CC82DA00071B356 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0CE35241CC82DA00071B356 /* Default-568h@2x.png */; };
+		C0E06F6C1CC37D80005C5588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E06F6B1CC37D80005C5588 /* main.m */; };
+		C0E06F6F1CC37D80005C5588 /* TMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E06F6E1CC37D80005C5588 /* TMAppDelegate.m */; };
+		C0E06F721CC37D80005C5588 /* TMCitiesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E06F711CC37D80005C5588 /* TMCitiesListViewController.m */; };
+		C0E06F751CC37D80005C5588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E06F731CC37D80005C5588 /* Main.storyboard */; };
+		C0E06F771CC37D80005C5588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0E06F761CC37D80005C5588 /* Assets.xcassets */; };
+		C0E06F851CC37D81005C5588 /* TrainManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E06F841CC37D81005C5588 /* TrainManagerTests.m */; };
+		C0E06F901CC37D81005C5588 /* TrainManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E06F8F1CC37D81005C5588 /* TrainManagerUITests.m */; };
+		C0E06F9F1CC38132005C5588 /* TMCitiesListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E06F9E1CC38132005C5588 /* TMCitiesListInteractor.m */; };
+		C0E06FA21CC38153005C5588 /* TMCitiesListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E06FA11CC38153005C5588 /* TMCitiesListPresenter.m */; };
+		C0E070AB1CC398C4005C5588 /* TMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E070AA1CC398C4005C5588 /* TMRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0E06F811CC37D81005C5588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E06F5F1CC37D80005C5588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E06F661CC37D80005C5588;
+			remoteInfo = TrainManager;
+		};
+		C0E06F8C1CC37D81005C5588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0E06F5F1CC37D80005C5588 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E06F661CC37D80005C5588;
+			remoteInfo = TrainManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		944977EE5EFC1E3CE96E63C0 /* Pods-TrainManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrainManager/Pods-TrainManager.debug.xcconfig"; sourceTree = "<group>"; };
+		B793F99EAF64240EDE770B11 /* Pods-TrainManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrainManager/Pods-TrainManager.release.xcconfig"; sourceTree = "<group>"; };
+		C0C055201CC4CE8000DC8F8C /* TMInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMInfoViewController.h; path = TrainManager/InfoModule/View/TMInfoViewController.h; sourceTree = "<group>"; };
+		C0C055211CC4CE8000DC8F8C /* TMInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMInfoViewController.m; path = TrainManager/InfoModule/View/TMInfoViewController.m; sourceTree = "<group>"; };
+		C0C055231CC4CEBB00DC8F8C /* TMInfoPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMInfoPresenter.h; path = TrainManager/InfoModule/Presenter/TMInfoPresenter.h; sourceTree = "<group>"; };
+		C0C055241CC4CEBB00DC8F8C /* TMInfoPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMInfoPresenter.m; path = TrainManager/InfoModule/Presenter/TMInfoPresenter.m; sourceTree = "<group>"; };
+		C0C055261CC4CED800DC8F8C /* TMInfoInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMInfoInteractor.h; path = TrainManager/InfoModule/Interactor/TMInfoInteractor.h; sourceTree = "<group>"; };
+		C0C055271CC4CED800DC8F8C /* TMInfoInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMInfoInteractor.m; path = TrainManager/InfoModule/Interactor/TMInfoInteractor.m; sourceTree = "<group>"; };
+		C0C0552A1CC4D17200DC8F8C /* TMInfoInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMInfoInteractorIO.h; path = TrainManager/InfoModule/Interactor/TMInfoInteractorIO.h; sourceTree = "<group>"; };
+		C0C0552D1CC4E0AD00DC8F8C /* TMCitiesListRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCitiesListRouter.h; sourceTree = "<group>"; };
+		C0C0552E1CC4E0AD00DC8F8C /* TMCitiesListRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCitiesListRouter.m; sourceTree = "<group>"; };
+		C0C055311CC4E0D900DC8F8C /* TMCitiesListRouterIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCitiesListRouterIO.h; sourceTree = "<group>"; };
+		C0C055371CC4ED2200DC8F8C /* TMInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMInfoView.h; path = TrainManager/InfoModule/View/TMInfoView.h; sourceTree = "<group>"; };
+		C0C05EAF1CC51C6800DC8F8C /* UIViewController+DataProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DataProperty.h"; sourceTree = "<group>"; };
+		C0C05EB01CC51C6800DC8F8C /* UIViewController+DataProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DataProperty.m"; sourceTree = "<group>"; };
+		C0CE34F41CC692660071B356 /* TMCitiesListAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCitiesListAssembly.h; path = CitiesListModule/Assembly/TMCitiesListAssembly.h; sourceTree = "<group>"; };
+		C0CE34F51CC692660071B356 /* TMCitiesListAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMCitiesListAssembly.m; path = CitiesListModule/Assembly/TMCitiesListAssembly.m; sourceTree = "<group>"; };
+		C0CE34F71CC6A9440071B356 /* TMInfoAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMInfoAssembly.h; path = TrainManager/InfoModule/Assembly/TMInfoAssembly.h; sourceTree = "<group>"; };
+		C0CE34F81CC6A9440071B356 /* TMInfoAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMInfoAssembly.m; path = TrainManager/InfoModule/Assembly/TMInfoAssembly.m; sourceTree = "<group>"; };
+		C0CE35021CC6B4DF0071B356 /* TMDatePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDatePresenter.h; path = Presenter/TMDatePresenter.h; sourceTree = "<group>"; };
+		C0CE35031CC6B4DF0071B356 /* TMDatePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMDatePresenter.m; path = Presenter/TMDatePresenter.m; sourceTree = "<group>"; };
+		C0CE35061CC6B5280071B356 /* TMDateInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDateInteractor.h; path = Interactor/TMDateInteractor.h; sourceTree = "<group>"; };
+		C0CE35071CC6B5280071B356 /* TMDateInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMDateInteractor.m; path = Interactor/TMDateInteractor.m; sourceTree = "<group>"; };
+		C0CE35091CC6B55A0071B356 /* TMDateRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDateRouter.h; path = Router/TMDateRouter.h; sourceTree = "<group>"; };
+		C0CE350A1CC6B55A0071B356 /* TMDateRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMDateRouter.m; path = Router/TMDateRouter.m; sourceTree = "<group>"; };
+		C0CE350C1CC6B5960071B356 /* TMDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDateView.h; path = View/TMDateView.h; sourceTree = "<group>"; };
+		C0CE350D1CC6B5B90071B356 /* TMDateInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDateInteractorIO.h; path = Interactor/TMDateInteractorIO.h; sourceTree = "<group>"; };
+		C0CE350E1CC6B6E80071B356 /* TMDateRouterIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDateRouterIO.h; path = Router/TMDateRouterIO.h; sourceTree = "<group>"; };
+		C0CE350F1CC6B8EA0071B356 /* TMDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDateViewController.h; path = View/TMDateViewController.h; sourceTree = "<group>"; };
+		C0CE35101CC6B8EA0071B356 /* TMDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMDateViewController.m; path = View/TMDateViewController.m; sourceTree = "<group>"; };
+		C0CE35141CC772140071B356 /* TMDateAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMDateAssembly.h; path = Assembly/TMDateAssembly.h; sourceTree = "<group>"; };
+		C0CE35151CC772140071B356 /* TMDateAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMDateAssembly.m; path = Assembly/TMDateAssembly.m; sourceTree = "<group>"; };
+		C0CE35231CC82C0A0071B356 /* TMCitiesListModuleInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCitiesListModuleInput.h; path = CitiesListModule/TMCitiesListModuleInput.h; sourceTree = "<group>"; };
+		C0CE35241CC82DA00071B356 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0E06F671CC37D80005C5588 /* TrainManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E06F6B1CC37D80005C5588 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0E06F6D1CC37D80005C5588 /* TMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMAppDelegate.h; sourceTree = "<group>"; };
+		C0E06F6E1CC37D80005C5588 /* TMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMAppDelegate.m; sourceTree = "<group>"; };
+		C0E06F701CC37D80005C5588 /* TMCitiesListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TMCitiesListViewController.h; path = CitiesListModule/View/TMCitiesListViewController.h; sourceTree = "<group>"; };
+		C0E06F711CC37D80005C5588 /* TMCitiesListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TMCitiesListViewController.m; path = CitiesListModule/View/TMCitiesListViewController.m; sourceTree = "<group>"; };
+		C0E06F741CC37D80005C5588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0E06F761CC37D80005C5588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0E06F7B1CC37D80005C5588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E06F801CC37D81005C5588 /* TrainManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E06F841CC37D81005C5588 /* TrainManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainManagerTests.m; sourceTree = "<group>"; };
+		C0E06F861CC37D81005C5588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E06F8B1CC37D81005C5588 /* TrainManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrainManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E06F8F1CC37D81005C5588 /* TrainManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainManagerUITests.m; sourceTree = "<group>"; };
+		C0E06F911CC37D81005C5588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0E06F9D1CC38132005C5588 /* TMCitiesListInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCitiesListInteractor.h; path = CitiesListModule/Interactor/TMCitiesListInteractor.h; sourceTree = "<group>"; };
+		C0E06F9E1CC38132005C5588 /* TMCitiesListInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMCitiesListInteractor.m; path = CitiesListModule/Interactor/TMCitiesListInteractor.m; sourceTree = "<group>"; };
+		C0E06FA01CC38153005C5588 /* TMCitiesListPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCitiesListPresenter.h; path = CitiesListModule/Presenter/TMCitiesListPresenter.h; sourceTree = "<group>"; };
+		C0E06FA11CC38153005C5588 /* TMCitiesListPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMCitiesListPresenter.m; path = CitiesListModule/Presenter/TMCitiesListPresenter.m; sourceTree = "<group>"; };
+		C0E06FA41CC38B26005C5588 /* TMCitiesListInteractorIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCitiesListInteractorIO.h; path = CitiesListModule/Interactor/TMCitiesListInteractorIO.h; sourceTree = "<group>"; };
+		C0E06FA71CC38B58005C5588 /* TMCitiesListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMCitiesListView.h; path = CitiesListModule/View/TMCitiesListView.h; sourceTree = "<group>"; };
+		C0E070A91CC398C4005C5588 /* TMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMRequest.h; sourceTree = "<group>"; };
+		C0E070AA1CC398C4005C5588 /* TMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMRequest.m; sourceTree = "<group>"; };
+		FD554377A7D34AD6212B42ED /* libPods-TrainManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrainManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E06F641CC37D80005C5588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BCA5C23780B71EDB6B6BC6 /* libPods-TrainManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E06F7D1CC37D81005C5588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E06F881CC37D81005C5588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C4318DC89BE2B2A704A2B4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				944977EE5EFC1E3CE96E63C0 /* Pods-TrainManager.debug.xcconfig */,
+				B793F99EAF64240EDE770B11 /* Pods-TrainManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3C50CF1F411429C412C44A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD554377A7D34AD6212B42ED /* libPods-TrainManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C01D200D1CC42380002B51C2 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C0E06FA01CC38153005C5588 /* TMCitiesListPresenter.h */,
+				C0E06FA11CC38153005C5588 /* TMCitiesListPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		C0C0551F1CC4CD6900DC8F8C /* CitiesListModule */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE35231CC82C0A0071B356 /* TMCitiesListModuleInput.h */,
+				C0CE34FA1CC6A9600071B356 /* Assembly */,
+				C0C055301CC4E0BA00DC8F8C /* Router */,
+				C0E070AC1CC39B85005C5588 /* Interactor */,
+				C01D200D1CC42380002B51C2 /* Presenter */,
+				C0E070AD1CC3D81A005C5588 /* View */,
+			);
+			name = CitiesListModule;
+			sourceTree = "<group>";
+		};
+		C0C055291CC4D0B400DC8F8C /* InfoModule */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE34FB1CC6A9750071B356 /* Assembly */,
+				C0CE34FC1CC6A9840071B356 /* Interactor */,
+				C0CE34FD1CC6A9910071B356 /* Presenter */,
+				C0CE34FE1CC6A9A10071B356 /* View */,
+			);
+			name = InfoModule;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C0C055301CC4E0BA00DC8F8C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C0C055311CC4E0D900DC8F8C /* TMCitiesListRouterIO.h */,
+				C0C0552D1CC4E0AD00DC8F8C /* TMCitiesListRouter.h */,
+				C0C0552E1CC4E0AD00DC8F8C /* TMCitiesListRouter.m */,
+			);
+			name = Router;
+			path = CitiesListModule/Router;
+			sourceTree = "<group>";
+		};
+		C0CE34FA1CC6A9600071B356 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE34F41CC692660071B356 /* TMCitiesListAssembly.h */,
+				C0CE34F51CC692660071B356 /* TMCitiesListAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		C0CE34FB1CC6A9750071B356 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE34F71CC6A9440071B356 /* TMInfoAssembly.h */,
+				C0CE34F81CC6A9440071B356 /* TMInfoAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		C0CE34FC1CC6A9840071B356 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C0C0552A1CC4D17200DC8F8C /* TMInfoInteractorIO.h */,
+				C0C055261CC4CED800DC8F8C /* TMInfoInteractor.h */,
+				C0C055271CC4CED800DC8F8C /* TMInfoInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		C0CE34FD1CC6A9910071B356 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C0C055231CC4CEBB00DC8F8C /* TMInfoPresenter.h */,
+				C0C055241CC4CEBB00DC8F8C /* TMInfoPresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		C0CE34FE1CC6A9A10071B356 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0C055371CC4ED2200DC8F8C /* TMInfoView.h */,
+				C0C055201CC4CE8000DC8F8C /* TMInfoViewController.h */,
+				C0C055211CC4CE8000DC8F8C /* TMInfoViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C0CE35051CC6B4E80071B356 /* DateModule */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE351C1CC7EA700071B356 /* Assembly */,
+				C0CE351B1CC7EA600071B356 /* Router */,
+				C0CE351A1CC7EA4F0071B356 /* Interactor */,
+				C0CE35191CC7EA3E0071B356 /* Presenter */,
+				C0CE35181CC7EA290071B356 /* View */,
+			);
+			name = DateModule;
+			path = DataModule;
+			sourceTree = "<group>";
+		};
+		C0CE35181CC7EA290071B356 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE350C1CC6B5960071B356 /* TMDateView.h */,
+				C0CE350F1CC6B8EA0071B356 /* TMDateViewController.h */,
+				C0CE35101CC6B8EA0071B356 /* TMDateViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C0CE35191CC7EA3E0071B356 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE35021CC6B4DF0071B356 /* TMDatePresenter.h */,
+				C0CE35031CC6B4DF0071B356 /* TMDatePresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		C0CE351A1CC7EA4F0071B356 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE350D1CC6B5B90071B356 /* TMDateInteractorIO.h */,
+				C0CE35061CC6B5280071B356 /* TMDateInteractor.h */,
+				C0CE35071CC6B5280071B356 /* TMDateInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		C0CE351B1CC7EA600071B356 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE350E1CC6B6E80071B356 /* TMDateRouterIO.h */,
+				C0CE35091CC6B55A0071B356 /* TMDateRouter.h */,
+				C0CE350A1CC6B55A0071B356 /* TMDateRouter.m */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		C0CE351C1CC7EA700071B356 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE35141CC772140071B356 /* TMDateAssembly.h */,
+				C0CE35151CC772140071B356 /* TMDateAssembly.m */,
+			);
+			name = Assembly;
+			sourceTree = "<group>";
+		};
+		C0E06F5E1CC37D80005C5588 = {
+			isa = PBXGroup;
+			children = (
+				C0E06F691CC37D80005C5588 /* TrainManager */,
+				C0E06F831CC37D81005C5588 /* TrainManagerTests */,
+				C0E06F8E1CC37D81005C5588 /* TrainManagerUITests */,
+				C0E06F681CC37D80005C5588 /* Products */,
+				2C4318DC89BE2B2A704A2B4B /* Pods */,
+				B3C50CF1F411429C412C44A0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E06F681CC37D80005C5588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E06F671CC37D80005C5588 /* TrainManager.app */,
+				C0E06F801CC37D81005C5588 /* TrainManagerTests.xctest */,
+				C0E06F8B1CC37D81005C5588 /* TrainManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0E06F691CC37D80005C5588 /* TrainManager */ = {
+			isa = PBXGroup;
+			children = (
+				C0E06F6D1CC37D80005C5588 /* TMAppDelegate.h */,
+				C0E06F6E1CC37D80005C5588 /* TMAppDelegate.m */,
+				C0C05EAF1CC51C6800DC8F8C /* UIViewController+DataProperty.h */,
+				C0C05EB01CC51C6800DC8F8C /* UIViewController+DataProperty.m */,
+				C0E070A91CC398C4005C5588 /* TMRequest.h */,
+				C0E070AA1CC398C4005C5588 /* TMRequest.m */,
+				C0CE35051CC6B4E80071B356 /* DateModule */,
+				C0C055291CC4D0B400DC8F8C /* InfoModule */,
+				C0C0551F1CC4CD6900DC8F8C /* CitiesListModule */,
+				C0E06F731CC37D80005C5588 /* Main.storyboard */,
+				C0E06F6A1CC37D80005C5588 /* Supporting Files */,
+			);
+			path = TrainManager;
+			sourceTree = "<group>";
+		};
+		C0E06F6A1CC37D80005C5588 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0CE35241CC82DA00071B356 /* Default-568h@2x.png */,
+				C0E06F761CC37D80005C5588 /* Assets.xcassets */,
+				C0E06F7B1CC37D80005C5588 /* Info.plist */,
+				C0E06F6B1CC37D80005C5588 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E06F831CC37D81005C5588 /* TrainManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0E06F841CC37D81005C5588 /* TrainManagerTests.m */,
+				C0E06F861CC37D81005C5588 /* Info.plist */,
+			);
+			path = TrainManagerTests;
+			sourceTree = "<group>";
+		};
+		C0E06F8E1CC37D81005C5588 /* TrainManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0E06F8F1CC37D81005C5588 /* TrainManagerUITests.m */,
+				C0E06F911CC37D81005C5588 /* Info.plist */,
+			);
+			path = TrainManagerUITests;
+			sourceTree = "<group>";
+		};
+		C0E070AC1CC39B85005C5588 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C0E06FA41CC38B26005C5588 /* TMCitiesListInteractorIO.h */,
+				C0E06F9D1CC38132005C5588 /* TMCitiesListInteractor.h */,
+				C0E06F9E1CC38132005C5588 /* TMCitiesListInteractor.m */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		C0E070AD1CC3D81A005C5588 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0E06FA71CC38B58005C5588 /* TMCitiesListView.h */,
+				C0E06F701CC37D80005C5588 /* TMCitiesListViewController.h */,
+				C0E06F711CC37D80005C5588 /* TMCitiesListViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E06F661CC37D80005C5588 /* TrainManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E06F941CC37D81005C5588 /* Build configuration list for PBXNativeTarget "TrainManager" */;
+			buildPhases = (
+				1CE0B8892D0CB09AE09F4E10 /* Check Pods Manifest.lock */,
+				C0E06F631CC37D80005C5588 /* Sources */,
+				C0E06F641CC37D80005C5588 /* Frameworks */,
+				C0E06F651CC37D80005C5588 /* Resources */,
+				21546FC0D82E42DFEBCF928A /* Embed Pods Frameworks */,
+				4B5ACB94F7BB481B5D34ACCE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrainManager;
+			productName = TrainManager;
+			productReference = C0E06F671CC37D80005C5588 /* TrainManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0E06F7F1CC37D81005C5588 /* TrainManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E06F971CC37D81005C5588 /* Build configuration list for PBXNativeTarget "TrainManagerTests" */;
+			buildPhases = (
+				C0E06F7C1CC37D81005C5588 /* Sources */,
+				C0E06F7D1CC37D81005C5588 /* Frameworks */,
+				C0E06F7E1CC37D81005C5588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E06F821CC37D81005C5588 /* PBXTargetDependency */,
+			);
+			name = TrainManagerTests;
+			productName = TrainManagerTests;
+			productReference = C0E06F801CC37D81005C5588 /* TrainManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0E06F8A1CC37D81005C5588 /* TrainManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E06F9A1CC37D81005C5588 /* Build configuration list for PBXNativeTarget "TrainManagerUITests" */;
+			buildPhases = (
+				C0E06F871CC37D81005C5588 /* Sources */,
+				C0E06F881CC37D81005C5588 /* Frameworks */,
+				C0E06F891CC37D81005C5588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0E06F8D1CC37D81005C5588 /* PBXTargetDependency */,
+			);
+			name = TrainManagerUITests;
+			productName = TrainManagerUITests;
+			productReference = C0E06F8B1CC37D81005C5588 /* TrainManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E06F5F1CC37D80005C5588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Kapam6a;
+				TargetAttributes = {
+					C0E06F661CC37D80005C5588 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L3B2AFZ96U;
+					};
+					C0E06F7F1CC37D81005C5588 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L3B2AFZ96U;
+						TestTargetID = C0E06F661CC37D80005C5588;
+					};
+					C0E06F8A1CC37D81005C5588 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = L3B2AFZ96U;
+						TestTargetID = C0E06F661CC37D80005C5588;
+					};
+				};
+			};
+			buildConfigurationList = C0E06F621CC37D80005C5588 /* Build configuration list for PBXProject "TrainManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0E06F5E1CC37D80005C5588;
+			productRefGroup = C0E06F681CC37D80005C5588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E06F661CC37D80005C5588 /* TrainManager */,
+				C0E06F7F1CC37D81005C5588 /* TrainManagerTests */,
+				C0E06F8A1CC37D81005C5588 /* TrainManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0E06F651CC37D80005C5588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E06F771CC37D80005C5588 /* Assets.xcassets in Resources */,
+				C0E06F751CC37D80005C5588 /* Main.storyboard in Resources */,
+				C0CE35251CC82DA00071B356 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E06F7E1CC37D81005C5588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E06F891CC37D81005C5588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CE0B8892D0CB09AE09F4E10 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21546FC0D82E42DFEBCF928A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrainManager/Pods-TrainManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B5ACB94F7BB481B5D34ACCE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrainManager/Pods-TrainManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E06F631CC37D80005C5588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0552F1CC4E0AD00DC8F8C /* TMCitiesListRouter.m in Sources */,
+				C0CE35081CC6B5280071B356 /* TMDateInteractor.m in Sources */,
+				C0C055251CC4CEBB00DC8F8C /* TMInfoPresenter.m in Sources */,
+				C0C055281CC4CED800DC8F8C /* TMInfoInteractor.m in Sources */,
+				C0CE35161CC772140071B356 /* TMDateAssembly.m in Sources */,
+				C0E070AB1CC398C4005C5588 /* TMRequest.m in Sources */,
+				C0E06F721CC37D80005C5588 /* TMCitiesListViewController.m in Sources */,
+				C0C055221CC4CE8000DC8F8C /* TMInfoViewController.m in Sources */,
+				C0E06F9F1CC38132005C5588 /* TMCitiesListInteractor.m in Sources */,
+				C0CE34F61CC692660071B356 /* TMCitiesListAssembly.m in Sources */,
+				C0CE350B1CC6B55A0071B356 /* TMDateRouter.m in Sources */,
+				C0C05EB11CC51C6800DC8F8C /* UIViewController+DataProperty.m in Sources */,
+				C0CE35041CC6B4DF0071B356 /* TMDatePresenter.m in Sources */,
+				C0E06FA21CC38153005C5588 /* TMCitiesListPresenter.m in Sources */,
+				C0CE34F91CC6A9440071B356 /* TMInfoAssembly.m in Sources */,
+				C0E06F6F1CC37D80005C5588 /* TMAppDelegate.m in Sources */,
+				C0CE35111CC6B8EA0071B356 /* TMDateViewController.m in Sources */,
+				C0E06F6C1CC37D80005C5588 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E06F7C1CC37D81005C5588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E06F851CC37D81005C5588 /* TrainManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0E06F871CC37D81005C5588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E06F901CC37D81005C5588 /* TrainManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0E06F821CC37D81005C5588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E06F661CC37D80005C5588 /* TrainManager */;
+			targetProxy = C0E06F811CC37D81005C5588 /* PBXContainerItemProxy */;
+		};
+		C0E06F8D1CC37D81005C5588 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0E06F661CC37D80005C5588 /* TrainManager */;
+			targetProxy = C0E06F8C1CC37D81005C5588 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0E06F731CC37D80005C5588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0E06F741CC37D80005C5588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0E06F921CC37D81005C5588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C0E06F931CC37D81005C5588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0E06F951CC37D81005C5588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944977EE5EFC1E3CE96E63C0 /* Pods-TrainManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Typhoon/Tests/iOS",
+					"$(PROJECT_DIR)/Typhoon/Tests/OSX",
+				);
+				INFOPLIST_FILE = TrainManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.TrainManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0E06F961CC37D81005C5588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B793F99EAF64240EDE770B11 /* Pods-TrainManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Typhoon/Tests/iOS",
+					"$(PROJECT_DIR)/Typhoon/Tests/OSX",
+				);
+				INFOPLIST_FILE = TrainManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.TrainManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C0E06F981CC37D81005C5588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrainManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.TrainManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainManager.app/TrainManager";
+			};
+			name = Debug;
+		};
+		C0E06F991CC37D81005C5588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrainManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.TrainManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrainManager.app/TrainManager";
+			};
+			name = Release;
+		};
+		C0E06F9B1CC37D81005C5588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrainManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.TrainManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrainManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C0E06F9C1CC37D81005C5588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrainManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AYA.TrainManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrainManager;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E06F621CC37D80005C5588 /* Build configuration list for PBXProject "TrainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E06F921CC37D81005C5588 /* Debug */,
+				C0E06F931CC37D81005C5588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E06F941CC37D81005C5588 /* Build configuration list for PBXNativeTarget "TrainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E06F951CC37D81005C5588 /* Debug */,
+				C0E06F961CC37D81005C5588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E06F971CC37D81005C5588 /* Build configuration list for PBXNativeTarget "TrainManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E06F981CC37D81005C5588 /* Debug */,
+				C0E06F991CC37D81005C5588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E06F9A1CC37D81005C5588 /* Build configuration list for PBXNativeTarget "TrainManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E06F9B1CC37D81005C5588 /* Debug */,
+				C0E06F9C1CC37D81005C5588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0E06F5F1CC37D80005C5588 /* Project object */;
+}
